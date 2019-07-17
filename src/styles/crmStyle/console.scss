@@ -1,0 +1,510 @@
+
+.console {
+  .headerBox {
+    margin-top:20px;
+    padding: 0 5px;
+    .border_box{
+      border:1px solid #e0eaff;
+    }
+    .console_header_box {
+      padding-right: 10px;
+    }
+    .console_header {
+      padding: 0;
+      margin-bottom: 10px;
+      .box-card {
+        position: relative;
+        .el-card__body {
+          height: 110px;
+          padding: 10px ;
+          .companyName {
+            width: 80%;
+            font-size: 16px;
+            font-weight: bold;
+            margin:5px 0 13px 0;
+            overflow:hidden;
+            text-overflow:ellipsis;
+            white-space:nowrap
+          }
+          .name {
+            font-size: 14px;
+          }
+          .yu_e {
+            width: 100%;
+            height: 30px;
+            line-height: 30px;
+            text-align: left;
+            padding-left: 25px;
+            font-size: 14px;
+            background: #e0f4d8;
+            color: #25992e;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+          }
+          .top_title ,.bottom_title{
+            height: 40px;
+            line-height: 40px;
+            font-size: 13px;
+            position: relative;
+            .top_title_name {
+            }
+          }
+          .top_title {
+            margin-bottom: 5px;
+          }
+          .name_right{
+            margin-right: 7px;
+          }
+        }
+
+      }
+      .bos-padding {
+        .el-card__body {
+          padding: 0;
+          .el-col-24 {
+            padding: 0;
+          }
+        }
+      }
+    }
+    .account_name {
+      width: 100%;
+      height: 40px;
+      line-height: 40px;
+      background: #c5e4ff;
+      .name{
+        font-size: 18px;
+        float: left;
+        margin-left: 10px;
+      }
+      .more {
+        float: right;
+        font-size: 12px;
+        cursor: pointer;
+      }
+      .el_show {
+        transform: rotate(0deg);
+
+        -webkit-transform: rotate(0deg);
+
+        -moz-transform: rotate(0deg);
+
+        -ms-transform: rotate(0deg);
+
+        -o-transform: rotate(0deg);
+
+        transition: transform 0.2s;
+
+        -moz-transition: -moz-transform 0.2s;
+
+        -moz-transition: -moz-transform 0.2s;
+
+        -o-transition: -o-transform 0.2s;
+
+        -ms-transition: -ms-transform 0.2s;
+      }
+      .showMore {
+        transform-origin:center; //旋转中心要是正中间 才行
+
+        transform: rotate(180deg);
+
+        -webkit-transform: rotate(180deg);
+
+        -moz-transform: rotate(180deg);
+
+        -ms-transform: rotate(180deg);
+
+        -o-transform: rotate(180deg);
+
+        transition: transform 0.2s;
+
+        -moz-transition: -moz-transform 0.2s;
+
+        -moz-transition: -moz-transform 0.2s;
+
+        -o-transition: -o-transform 0.2s;
+
+        -ms-transition: -ms-transform 0.2s;
+
+      }
+
+    }
+    .console_title_Box {
+      background: #f2f7ff;
+      position: relative;
+      .console_title {
+        width:20%;
+        height: 70px;
+        position: relative;
+        vertical-align: top;
+        padding: 5px 10px 0 20px;
+        float: left;
+        .nameBox {
+          width:100%;
+          cursor: pointer;
+          height:20px;
+          line-height: 20px;
+          .name{
+            font-size: 14px;
+            text-decoration: underline;
+            float: left;
+          }
+          .dai_num {
+            float: right;
+            font-size: 12px;
+          }
+        }
+        .numberBox {
+          height:40px;
+          position: relative;
+          .num{
+            display: inline-block;
+            height: 40px;
+            line-height: 40px;
+            font-size: 24px;
+            color: #669fe4;
+          }
+          .fenpei {
+            width:40px;
+            height:20px;
+            line-height: 20px;
+            text-align: center;
+            position: absolute;
+            right:0;
+            top:0;
+            bottom:0;
+            margin:auto;
+            font-size: 12px;
+            background: #E8E8E8;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+          .color {
+            background: #669fe4;
+            color: white;
+          }
+        }
+        .line {
+          position: absolute;
+          right: 0;
+          top:0;
+          bottom:0;
+          margin:auto;
+          display: inline-block;
+          height:50px;
+          width:1px;
+          background: #afd7f8;
+        }
+      }
+      .nextBox {
+        height: 0;
+        overflow: hidden;
+        position: relative;
+        transition: all 0.3s;
+        .lineTop {
+          width: 97%;
+          height: 1px;
+          background: #afd7f8;
+          position: absolute;
+          top:0;
+          left:0;
+          right: 0;
+          margin:auto;
+        }
+      }
+      .showBox {
+        transition: all 0.3s;
+        height:70px;
+      }
+    }
+  }
+      .select {
+        margin: 10px 0 10px 5px;
+        .textSelect {
+          width: 200px;
+          height: 30px;
+          float: left;
+          margin-right: 20px;
+          input {
+            height: 30px !important;
+            line-height: 29px !important;
+          }
+          .el-input__icon {
+            height: 30px !important;
+            line-height: 29px !important;
+          }
+        }
+      }
+  .Inforbox {
+    width:100%;
+    marign-top:10px;
+    .infor {
+      width:25%;
+      min-width: 270px;
+      height:260px;
+      float: left;
+      padding: 0 5px;
+      margin-bottom: 10px;
+      .box {
+        width:100%;
+        height: 100%;
+        border: 1px solid #639FE6;
+        box-sizing: border-box;
+        position: relative;
+        .header {
+          height:30px;
+          line-height: 30px;
+          background: #639FE6;
+          .name{
+            margin-left: 10px;
+            display: inline-block;
+            width: 150px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-size: 14px;
+            color: white;
+            height: 100%;
+            float: left;
+            text-decoration: underline;
+            cursor: pointer;
+          }
+          .guidang {
+            display: inline-block;
+            vertical-align: top;
+            float: right;
+            .color{
+              margin-right: 22px;
+              color: white;
+            }
+          }
+          .btn {
+            float: right;
+            display: inline-block;
+            width:40px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            background: white;
+            color: #449fe4;
+            font-size: 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin:5px 10px 0 0;
+          }
+        }
+        .infor {
+          width:100%;
+          height:100%;
+          padding:0 5px;
+          position: relative;
+          min-width: 250px;
+          .tan_btn {
+            position: absolute;
+            top:0;
+            left: 0;
+            width:100%;
+            background: #0b79c7;
+            padding:0 5px;
+            height:228px;
+            transition:all .4s ease-in 0.3s;
+            opacity: 0;
+            pointer-events:auto;
+            z-index: -1;
+            .tan_infor {
+              border-bottom: 1px dashed #d7e5fc;
+              .left_box,.right_box{
+                display: inline-block;
+                margin:11px 0 ;
+                vertical-align: top;
+              }
+              .left_box {
+                font-size: 14px;
+                color: white;
+                margin-left: 5px;
+                width:20%;
+              }
+              .right_box {
+                width:76%;
+                .button {
+                  height: 20px;
+                  line-height: 20px;
+                  text-align: center;
+                  background: white;
+                  display: inline-block;
+                  color: #0e86d8;
+                  font-size: 12px;
+                  border-radius: 5px;
+                  padding: 0 5px;
+                  margin:3px 5px;
+                  cursor: pointer;
+                }
+              }
+            }
+            .tan_infor :last-child{
+              border-bottom: none;
+            }
+          }
+          .infor_data {
+            width:100%;
+            height: 25px;
+            line-height: 25px;
+            font-size: 12px;
+            border-bottom: 1px dashed #d7e5fc;
+            .name{
+              float: left;
+              margin-left: 10px;
+            }
+            .numInfor {
+              float: right;
+              margin-right: 10px;
+            }
+          }
+          .infor_data:last-child{
+            border-bottom: none;
+          }
+        }
+      }
+      .hoverBox:hover .tan_btn{
+        opacity:1;
+        z-index: 99;
+      }
+    }
+  }
+  .tan_shiftTo {
+    .el-dialog {
+      width:360px;
+      .el-dialog__header {
+        position: relative;
+        padding:0;
+        height:40px;
+        line-height: 45px;
+        text-align: center;
+        background: #dde2e8;
+        font-size: 12px;
+        position: relative;
+        .el-dialog__title {
+         color: #606987;
+        }
+        .el-dialog__headerbtn {
+          position: absolute;
+          right:10px;
+          top:0;
+          bottom: 0;
+          margin:auto;
+        }
+      }
+      .el-dialog__body {
+        padding: 10px 20px;
+        .shiftTo {
+          margin:0;
+          padding:0;
+          list-style: none;
+          p{
+            font-size: 12px;
+            display: inline-block;
+            margin:0;
+          }
+          li{
+            margin: 5px 0;
+            .first_p {
+              width:100px;
+              text-align: right;
+              margin-right: 30px;
+            }
+            .last_p{
+              width:150px;
+              .el-select {
+                height:30px;
+                input{
+                  height: 29px !important;
+                  line-height: 29px!important;
+                }
+                .el-input__icon {
+                  height: 30px !important;
+                  line-height: 29px !important;
+                }
+              }
+            }
+            p{
+              .right_span{
+                width:40px;
+                height:25px;
+                border-radius: 3px;
+                background: #f0f2f5;
+                text-align: center;
+                line-height: 25px;
+                font-size: 12px;
+                display: inline-block;
+                border:1px solid #bbbbbb;
+                float: right;
+                margin-top: 2.5px;
+                cursor: pointer;
+              }
+              .tan_input,.yanqi {
+                height:30px;
+                width:100%;
+                input{
+                  height: 29px!important;
+                  line-height:29px!important;
+                }
+                .el-input__prefix {
+                  .el-input__icon {
+                    height: 30px !important;
+                    line-height: 29px !important;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+      }
+      .dialog-footer {
+        button.el-button{
+          width:80px;
+          height: 30px!important;
+          text-align: center;
+          line-height: 30px;
+          padding: 0;
+          margin:0 10px;
+        }
+      }
+    }
+
+  }
+}
+@media all and (min-width:1700px)  and (max-width: 1920px) {
+  .console .Inforbox .infor {
+    width:20%;
+  }
+}
+@media screen and (max-width: 1330px) {
+  .console .headerBox .console_title_Box .console_title .numberBox .num {
+    font-size: 16px;
+  }
+  .console .Inforbox .infor {
+    width:33.3333%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .console .headerBox .console_title_Box .console_title .numberBox .num {
+    font-size: 14px;
+  }
+  .console .Inforbox .infor {
+    width:33.3333%;
+  }
+}
+@media screen and (max-width: 1100px) {
+
+  .console .headerBox .console_title_Box .console_title .numberBox .num {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 1060px){
+  .console .Inforbox .infor {
+    width:50%;
+  }
+}

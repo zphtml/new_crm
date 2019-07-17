@@ -1,0 +1,35 @@
+.radio {
+  .el-radio__input {
+    .el-radio__inner {
+      border-color: #bfcbd9;
+      background: none;
+      border-radius: 0;
+    }
+  }
+  .el-radio__label {
+    color: #000;
+    font-weight:normal;
+    font-size: 12px;
+  }
+  .is-checked {
+    .el-radio__inner::after {
+      content: '';
+      width: 9px;
+      height: 5px;
+      position: absolute;
+      top: 4px;
+      left: 4px;
+      border: 3px solid #bbbbbb;
+      border-top: none;
+      border-right: none;
+      background: transparent;
+      border-radius: 0;
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+      /* opacity: 0; */
+      -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+    }
+  }
+}

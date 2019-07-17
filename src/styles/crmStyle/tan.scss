@@ -1,0 +1,110 @@
+
+
+
+.tan_shiftTo {
+  .el-dialog {
+    width:410px;
+    .el-dialog__header {
+      position: relative;
+      padding:0;
+      height:40px;
+      line-height: 45px;
+      text-align: center;
+      background: #dde2e8;
+      font-size: 12px;
+      position: relative;
+      .el-dialog__title {
+        color: #606987;
+      }
+      .el-dialog__headerbtn {
+        position: absolute;
+        right:10px;
+        top:0;
+        bottom: 0;
+        margin:auto;
+      }
+    }
+    .el-dialog__body {
+      padding: 10px 20px;
+      .shiftTo {
+        margin:0;
+        padding:0;
+        list-style: none;
+        .el-date-editor.el-input {
+          width:150px;
+        }
+        p{
+          font-size: 12px;
+          display: inline-block;
+          margin:0;
+        }
+        li{
+          margin: 5px 0;
+          .first_p {
+            width:100px;
+            vertical-align: top;
+            text-align: right;
+            margin-right: 30px;
+          }
+          .last_p{
+            width:180px;
+            position: relative;
+            .el-select {
+              height:30px;
+              input{
+                height: 29px !important;
+                line-height: 29px!important;
+              }
+              .el-input__icon {
+                height: 30px !important;
+                line-height: 29px !important;
+              }
+            }
+          }
+          p{
+            .right_span{
+              width:40px;
+              height:25px;
+              border-radius: 3px;
+              background: #f0f2f5;
+              text-align: center;
+              line-height: 25px;
+              font-size: 12px;
+              display: inline-block;
+              border:1px solid #bbbbbb;
+              float: right;
+              margin-top: 2.5px;
+              cursor: pointer;
+            }
+            .tan_input,.yanqi {
+              height:30px;
+              width:100%;
+              input{
+                height: 29px!important;
+                line-height:29px!important;
+              }
+              .el-input__prefix {
+                .el-input__icon {
+                  height: 30px !important;
+                  line-height: 29px !important;
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+    .dialog-footer {
+      button.el-button{
+        width:80px;
+        height: 30px!important;
+        text-align: center;
+        line-height: 30px;
+        padding: 0;
+        margin:0 10px;
+      }
+    }
+  }
+
+}

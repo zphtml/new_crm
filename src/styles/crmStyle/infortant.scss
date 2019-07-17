@@ -1,0 +1,97 @@
+.app-wrapper .main-container {
+  margin-top: 50px;
+}
+/*table    search*/
+.center_biaoge .search{
+  position: absolute;
+  right: 16px;
+  top: 26px;
+}
+.information-box {
+  width:100%;
+  padding:0 20px;
+}
+/*表格*/
+.information-box .information-table{
+  width:100%;
+  max-height:500px;
+  background: white;
+  position: relative;
+  box-shadow: 0px 0px 10px #d9d9d9;
+}
+.information-box .information-title {
+  width:100%;
+  height:50px;
+  line-height: 50px;
+  font-size: 14px;
+  margin: 0;
+  text-indent: 35px;
+  position: relative;
+  color: #7c839a;
+  background: white;
+}
+.information-box .information-title .information-l{
+  display: inline-block;
+  position: absolute;
+  left: 17px;
+  top: 0;
+  bottom: 0;
+  margin:auto;
+  width: 4px;
+  height: 20px;
+  border-radius: 5px;
+  background: #0c88fc;
+}
+
+/*echarts line*/
+.information-box .information-line {
+  width:100%;
+  margin-top: 20px;
+  background: white;
+  position: relative;
+   box-shadow: 0px 0px 10px #d9d9d9;
+}
+.information-box .information-line .echarsScale {
+  position: absolute;
+  top: 45px;
+  right: 32px;
+  z-index: 9999;
+}
+.information-box .information-line .echarsScale .el-input__icon+.el-input__inner {
+  padding-right: 35px;
+  height: 20px!important;
+  width: 100px;
+}
+/*echarts all*/
+.information-box .information-echarts {
+  background: white;
+  margin-top: 20px;
+  padding-bottom:30px;
+   box-shadow: 0px 0px 10px #d9d9d9;
+}
+.information-box .information-echarts-padding {
+  padding: 0 20px;
+}
+
+/*滚轴*/
+.jihua  ::-webkit-scrollbar{
+  width: 7px;
+  height: 16px;
+  border-radius:0;
+  background-color: white;
+}
+
+/*定义滚动条的轨道，内阴影及圆角*/
+.jihua   ::-webkit-scrollbar-track{
+  border-radius: 10px;
+  background-color: white;
+}
+/*定义滑块，内阴影及圆角*/
+.jihua   ::-webkit-scrollbar-thumb{
+  /*width: 10px;*/
+  height: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px white;
+  background-color: rgba(205,211,237,.4);
+}
+

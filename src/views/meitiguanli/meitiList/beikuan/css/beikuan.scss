@@ -1,0 +1,175 @@
+.bukuanForm {
+.bukuanBox{
+.consoleTitle{
+    margin:10px 0;
+.corporateName {
+    font-size: 22px;
+}
+.appInfotBox {
+    height: 30px;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 30px;
+.appInfor {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    border-radius: 50%;
+    margin:0 100px 0 0px ;
+}
+.appInfor.qu{
+    color: white;
+    background: #FF8754;
+}
+.appInfor.zhi{
+    color: white;
+    background: #3F7FFC;
+}
+}
+}
+.kh_InforBox{
+.input_search {
+.el-input-group__append{
+    background:rgb(245, 247, 249)!important;
+    border: 1px solid #e1dfdc;
+    border-left: none;
+    border-radius: 0;
+    padding-right: 9px;
+    color: black;
+}
+}
+
+.addInfor{
+    display: inline-block;
+    margin-left: 30px;
+    cursor: pointer;
+.addaccount{
+    display: inline-block;
+    width:16px;
+    height:16px;
+    font-size: 14px;
+    border:2px solid #977e7a;
+    color: #977e7a;
+    line-height: 16px;
+    font-weight: bold;
+}
+.addaccountText {
+    font-size: 14px;
+    color: #218eb9;
+    text-decoration: underline;
+}
+}
+}
+.tan_shiftTo {
+.el-dialog {
+    width:360px;
+.el-dialog__header {
+    position: relative;
+    padding:0;
+    height:40px;
+    line-height: 45px;
+    text-align: center;
+    background: #dde2e8;
+    font-size: 12px;
+    position: relative;
+.el-dialog__title {
+    color: #606987;
+}
+.el-dialog__headerbtn {
+    position: absolute;
+    right:10px;
+    top:0;
+    bottom: 0;
+    margin:auto;
+}
+}
+.el-dialog__body {
+    padding: 10px 20px;
+.shiftTo {
+    margin:0;
+    padding:0;
+    list-style: none;
+p{
+    font-size: 12px;
+    display: inline-block;
+    margin:0;
+}
+li{
+    margin: 5px 0;
+.first_p {
+    width:100px;
+    text-align: right;
+    margin-right: 30px;
+}
+.last_p{
+    width:168px;
+    position: relative;
+input{
+    height: 29px !important;
+    line-height: 29px!important;
+}
+.el-input__icon{
+    line-height: 30px;
+}
+.el-input__icon{
+    /*display: none;*/
+}
+}
+p{
+.right_span{
+    width:40px;
+    height:25px;
+    border-radius: 3px;
+    background: #f0f2f5;
+    text-align: center;
+    line-height: 25px;
+    font-size: 12px;
+    display: inline-block;
+    border:1px solid #bbbbbb;
+    float: right;
+    margin-top: 2.5px;
+    cursor: pointer;
+}
+.tan_input,.yanqi {
+    height:30px;
+    width:100%;
+input{
+    height: 29px!important;
+    line-height:29px!important;
+}
+.el-input__prefix {
+.el-input__icon {
+    height: 30px !important;
+    line-height: 29px !important;
+}
+}
+}
+}
+}
+}
+
+}
+.dialog-footer {
+button.el-button{
+    width:80px;
+    height: 30px!important;
+    text-align: center;
+    line-height: 30px;
+    padding: 0;
+    margin:0 10px;
+}
+}
+}
+
+}
+}
+.important {
+    position: absolute;
+    left:-10px;
+    font-size: 14px;
+    color: red;
+}
+}
