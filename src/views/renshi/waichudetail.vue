@@ -8,7 +8,7 @@
                 我要外出
            </p>
            <el-col :span="24" style="margin-top:10px">
-                   <el-col :lg="14">
+                   <el-col :lg="18">
                        <el-col :span="24" style="padding: 0">
                            <el-col :span="24" style="height: 30px;line-height: 30px;border-bottom: 1px solid #e6e6e6;color: #222f3b;font-size: 12px;padding: 0">
                                <el-col :span="24" style="padding-left: 0">

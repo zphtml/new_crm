@@ -42,14 +42,14 @@
                                     <span class="name_right" >
                                         销售:
                                     </span>
-                                    {{data.submituser0.name}}
+                                    {{data.submituser0.name || '' }}
                                 </span>
                                         <span>
                                     <span class="name_right">
                                         AE:
                                     </span>
                                     <span v-if="data.business0">
-                                    {{data.business0.name}}
+                                    {{data.business0.name  || ''}}
                                     </span>
                                     <span v-else>
                                         --
@@ -231,11 +231,11 @@
                     </span>
                         <el-select v-model="linevalue" style="width:160px;" size="mini" placeholder="请选择" @change="lineChange">
                             <el-option-group
-                                    v-for="(item,key) in lineoptions"
+                                    v-for="item in lineoptions"
                                     :key="item.name"
                                     :label="item.name">
                                 <el-option
-                                        v-for="(item,index) in item.zi"
+                                        v-for="item in item.zi"
                                         :key="item.name"
                                         :label="item.name"
                                         :value="item.id">
@@ -244,7 +244,7 @@
                         </el-select>
                         <el-select style="margin-left: 10px;width:140px;" v-model="shenheType" size="mini" placeholder="请选择" @change="shenheChange">
                             <el-option
-                                    v-for="(item,index) in shenheoption"
+                                    v-for="item in shenheoption"
                                     :key="item.value"
                                     :label="item.label"
                                     :value="item.value">
@@ -252,7 +252,7 @@
                         </el-select>
                         <el-select style="margin-left: 10px;width:140px;" v-model="xieyiType" size="mini" placeholder="请选择" @change="xieyiChange">
                             <el-option
-                                    v-for="(item,index) in xieyioption"
+                                    v-for="item in xieyioption"
                                     :key="item.value"
                                     :label="item.label"
                                     :value="item.value">

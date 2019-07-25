@@ -66,7 +66,7 @@ module.exports = {
         port: 8085,
         https: false,
         hotOnly: false,
-        // proxy:'http://192.168.2.181:8083/',
-        proxy:'http://c.lzad.cc',
+        proxy:'http://192.168.2.181:8083/',
+        // proxy:'http://c.lzad.cc',
     }
 }
